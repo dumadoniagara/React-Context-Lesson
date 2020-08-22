@@ -2,7 +2,6 @@ import React, { createContext, Component } from 'react'
 
 export const ThemeContext = createContext();
 
-
 class ThemeContextProvider extends Component {
   /* state here is shared data to other component that wrapped by this component (different component)*/
   state = {
